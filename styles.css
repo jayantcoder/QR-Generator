@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e8ecf1);
+    color: #333;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h1, h2 {
+    color: #332f2f;
+}
+
+header.hero {
+    padding: 50px 20px;
+    background: linear-gradient(145deg, #0077ff, #00aaff);
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+header.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+header.hero-content p {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+}
+
+header.hero-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: white;
+    color: #0077ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+header.hero-content button:hover {
+    background: #ffffff;
+    color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Form Section */
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+}
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* QR Code Display */
+#qr-preview {
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 0.9rem;
+    background: #0077ff;
+    color: white;
+}
